@@ -1,5 +1,9 @@
 class Divide
 	def initialize(x,y)
+	  if y == 0 || x == 0
+	    puts "Error"
+	    return
+	  end
 		divide(x,y)
 	end
 
