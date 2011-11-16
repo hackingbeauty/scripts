@@ -30,7 +30,7 @@ def report_all(stats)
   puts "Average number of sentences per paragraph: #{stats[:sentence_count] / stats[:paragraph_count]}"
 end
  
-statistics = text_analyzer 'text.txt'
+statistics = text_analyzer 'article.txt'
  
 # Only word count
 puts "Word count: #{statistics[:word_count]}"
